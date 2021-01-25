@@ -8,7 +8,8 @@ public class Item {
     private LocalDateTime created = LocalDateTime.now();
 
     public Item() {
-        this.id = 20;
+        this.id = -1;
+        this.name = "default";
     }
 
     public Item(int id) {
